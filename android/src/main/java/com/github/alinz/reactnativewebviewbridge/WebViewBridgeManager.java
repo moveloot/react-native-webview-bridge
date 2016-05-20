@@ -12,7 +12,7 @@ import java.util.Map;
 import javax.annotation.Nullable;
 
 public class WebViewBridgeManager extends ReactWebViewManager {
-  private static final String REACT_CLASS = "RCTWebViewBridge";
+  private static final String REACT_CLASS = "RCTWebViewBridgeBase";
 
   public static final int COMMAND_INJECT_BRIDGE_SCRIPT = 100;
   public static final int COMMAND_SEND_TO_BRIDGE = 101;
